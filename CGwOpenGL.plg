@@ -1,0 +1,51 @@
+http://www.internz.com/compression-pointers.html<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CGwOpenGL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/CGwOpenGL.res" /d "_DEBUG" /d "_AFXDLL" "c:\TEMP\L2\FileFormats\CGwOpenGL-L3-Texture BMP\CGwOpenGL.rc"" 
+Creating temporary file "C:\DOCUME~1\nodelman\LOCALS~1\Temp\RSP3B0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CGwOpenGL.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"c:\TEMP\L2\FileFormats\CGwOpenGL-L3-Texture BMP\CGlView.cpp"
+"c:\TEMP\L2\FileFormats\CGwOpenGL-L3-Texture BMP\CGwOpenGL.cpp"
+"c:\TEMP\L2\FileFormats\CGwOpenGL-L3-Texture BMP\CGwOpenGLDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\nodelman\LOCALS~1\Temp\RSP3B0.tmp" 
+Creating temporary file "C:\DOCUME~1\nodelman\LOCALS~1\Temp\RSP3B1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CGwOpenGL.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"c:\TEMP\L2\FileFormats\CGwOpenGL-L3-Texture BMP\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\nodelman\LOCALS~1\Temp\RSP3B1.tmp" 
+Creating temporary file "C:\DOCUME~1\nodelman\LOCALS~1\Temp\RSP3B2.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CGwOpenGL.pdb" /debug /machine:I386 /out:"Debug/CGwOpenGL.exe" /pdbtype:sept 
+".\Debug\CGlView.obj"
+".\Debug\CGwOpenGL.obj"
+".\Debug\CGwOpenGLDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CGwOpenGL.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\nodelman\LOCALS~1\Temp\RSP3B2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CGlView.cpp
+CGwOpenGL.cpp
+CGwOpenGLDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CGwOpenGL.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
